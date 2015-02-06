@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ATM</title>
+  <meta name="description" content="Information for FIRST 2015 attendees about restaurants, pubs, activities provided by the local teams.
+">
+
+  <link rel="stylesheet" href="/first2015/css/main.css">
+  <link rel="canonical" href="http://cert-verbund.github.io//first2015/atm/">
+  <link rel="alternate" type="application/rss+xml" title="FIRST 2015 CERT-Verbund" href="http://cert-verbund.github.io//first2015/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/first2015/">FIRST 2015 CERT-Verbund</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/first2015/activities/">Activities</a>
+          
+        
+          
+          <a class="page-link" href="/first2015/atm/">ATM</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/first2015/publictransportation/">Public Transportation</a>
+          
+        
+          
+          <a class="page-link" href="/first2015/restaurants/">Restaurants</a>
+          
+        
+          
+          <a class="page-link" href="/first2015/stores/">Stores</a>
+          
+        
+          
+          <a class="page-link" href="/first2015/telecommunication/">Telecommunication</a>
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">ATM</h1>
+  </header>
+
+  <article class="post-content">
+    <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
+
+<p>You can find the source code for the Jekyll new theme at: <a href="https://github.com/jglovier/jekyll-new">github.com/jglovier/jekyll-new</a></p>
+
+<p>You can find the source code for Jekyll at <a href="https://github.com/jekyll/jekyll">github.com/jekyll/jekyll</a></p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">FIRST 2015 CERT-Verbund</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>FIRST 2015 CERT-Verbund</li>
+          <li><a href="mailto:first2015@cert-verbund.de">first2015@cert-verbund.de</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">Information for FIRST 2015 attendees about restaurants, pubs, activities provided by the local teams.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+    
+    
+            <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+<script type="text/javascript">
+var jekyllMapping = (function () {
+    'use strict';
+    var settings;
+    var obj = {
+        plotArray: function(locations) {
+            function jekyllMapListen (m, s) {
+                if (s.link) {
+                    m.events.register('click', m, function() {
+                        window.location.href = s.link;
+                    });
+                }
+            }
+            var s, l, m, bounds = new OpenLayers.Bounds();
+            while (locations.length > 0) {
+                s = locations.pop();
+                l = new OpenLayers.LonLat(s.longitude, s.latitude).transform( new OpenLayers.Projection("EPSG:4326"), new OpenLayers.Projection("EPSG:900913"));
+                m = new OpenLayers.Marker(l)
+                this.markers.addMarker(m)
+                bounds.extend(l);
+                jekyllMapListen(m, s);
+            }
+            this.map.zoomToExtent(bounds);
+        },
+        indexMap: function () {
+            this.plotArray(settings.pages);
+        },
+        pageToMap: function () {
+            if (typeof(settings.latitude) !== 'undefined' && typeof(settings.longitude) !== 'undefined') {
+                this.center = new OpenLayers.LonLat(settings.longitude, settings.latitude).transform( new OpenLayers.Projection("EPSG:4326"), new OpenLayers.Projection("EPSG:900913"));
+                this.map.setCenter(this.center, settings.zoom);
+                this.markers.addMarker(new OpenLayers.Marker(this.center));
+            }     
+
+            if (settings.locations instanceof Array) {
+                this.plotArray(settings.locations);
+            }
+            
+            if (settings.layers) {
+                while (settings.layers.length > 0){
+                    var m = new OpenLayers.Layer.Vector("KML", {
+                            strategies: [new OpenLayers.Strategy.Fixed()],
+                            protocol: new OpenLayers.Protocol.HTTP({
+                                url: settings.layers.pop(),
+                                format: new OpenLayers.Format.KML({
+                                    extractStyles: true,
+                                    extractAttributes: true,
+                                    maxDepth: 2
+                                })
+                            })
+                        });
+                    this.map.addLayer(m)
+                }
+            }
+        },
+        mappingInitialize: function (set) {
+            settings = set;
+
+            this.markers = new OpenLayers.Layer.Markers("Markers"),
+            this.map = new OpenLayers.Map("jekyll-mapping");
+            this.map.addLayer(new OpenLayers.Layer.OSM());
+            this.map.addLayer(this.markers);
+
+            if (settings.pages) {
+                this.indexMap();
+            } else {
+                this.pageToMap();
+            }
+        }        
+    };
+    return obj;
+}());
+</script>
+
+    
+    
+
+  </body>
+
+</html>
