@@ -11,17 +11,17 @@ url: "http://cert-verbund.github.io/" # the base hostname & protocol for your si
 # Build settings
 markdown: kramdown
 
-#mapping:
-#    provider: openstreetmap
-#    zoom: 10
-#    dimensions:
-#        width: 600
-#        height: 400
-#
-#    locations:
-#                - title: foo
-#                  latitude: 10
-#                  longitude: 10
-#                - title: bar
-#                  latitude: -10
-#                  longitude: -10
+mapping:
+    provider: openstreetmap
+    zoom: 10
+    dimensions:
+        width: 600
+        height: 400
+
+    locations:
+                - title: foo
+                  latitude: 10
+                  longitude: 10
+                - title: bar
+                  latitude: -10
+                  longitude: -10
