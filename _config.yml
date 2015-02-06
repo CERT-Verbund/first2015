@@ -12,12 +12,7 @@ url: "http://cert-verbund.github.io/" # the base hostname & protocol for your si
 markdown: kramdown
 
 mapping:
-    provider: openstreetmap
-    zoom: 10
-    dimensions:
-        width: 600
-        height: 400
-
+    provider: google_static
     locations:
                 - title: foo
                   latitude: 10
