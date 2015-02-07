@@ -14,7 +14,20 @@ mapping:
             latitude: 52.5023132
             longitude: 13.3410918 
             link: http://nominatim.openstreetmap.org/details.php?place_id=14155235 
-        
+        -   title: SATURN 
+            latitude: 52.5036655
+            longitude: 13.3385732 
+            link: http://www.openstreetmap.org/way/26408270#map=19/52.50385/13.33861     
+        -   title: Apple Store
+            latitude: 52.503578
+            longitude: 13.3286983 
+            link: http://www.openstreetmap.org/node/2289653635 
+        -   title: Cyberport Store
+            latitude:  52.505492
+            longitude: 13.3375522 
+            link: http://www.openstreetmap.org/node/2776004166  
+
+     
 ---
 
 # Electronic shops
@@ -41,7 +54,7 @@ mapping:
 
 #Supermarket
 
-    Netto Marken-Discount - Filiale
+    Netto Marken-Discount
     Kurfürstenstraße 75
     10787 Berlin
 

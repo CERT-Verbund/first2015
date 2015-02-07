@@ -14,11 +14,18 @@ mapping:
         -   title: InterContinental Berlin 
             latitude: 52.50733495 
             longitude: 13.3451447636067  
-            link: http://www.openstreetmap.org/node/700080659#map=19/52.50526/13.34164 
+            link: http://www.openstreetmap.org/node/700080659#map=19/52.50526/13.34164
+            
+        -   title: ATM Berliner Sparkasse (250 m from hotel)    
+            latitude: 52.5073128 
+            longitude: 13.3490727    
         -   title: Berliner Volksbank 
             latitude: 52.5052617 
             longitude: 13.3416407  
             link: http://www.openstreetmap.org/node/700080659#map=19/52.50526/13.34164  
+        -   title: Berlin Hyp Berlin-Hannoversche Hypothekenbank AG Bank (200 m from hotel)
+            latitude:  52.506715
+            longitude: 13.3471542 
     
 ---
 

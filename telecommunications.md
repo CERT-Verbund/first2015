@@ -14,7 +14,13 @@ mapping:
             latitude: 52.50733495 
             longitude: 13.3451447636067  
             link: http://www.openstreetmap.org/node/700080659#map=19/52.50526/13.34164  
-        
+        -   title: Vodafone Shop D2 City (0.8 km from hotel)
+            latitude: 52.5030306 
+            longitude: 13.3387696  
+        -   title: O2 Shop (0.8 km from hotel)
+            latitude: 52.5036452 
+            longitude: 13.3387131  
+       
 ---
 
 # Telecommunication shops
