@@ -22,5 +22,18 @@ mapping:
 ---
 
 This page is going to provide some information about restaurants around the hotel and some reachable via cab / sub.
+<br/>
+L'osteria 
+Italian food, pizza, pasta, just a short walk away from the conference venue. 
+http://nominatim.openstreetmap.org/details.php?place_id=28852634 
+
+Das Meisterstück 
+Craft beer and german saussages. Reachable via sub or cab. 
+http://www.openstreetmap.org/node/1964264412 
+
+Savignyplatz 
+A place with several bars and restaurents with a variation of food style. 
+Reachable via a short walk from conference hotel. 
+http://nominatim.openstreetmap.org/details.php?place_id=46749307 
 
 
