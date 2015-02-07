@@ -19,21 +19,22 @@ mapping:
             latitude: 52.5052617 
             longitude: 13.3416407  
             link: http://www.openstreetmap.org/node/700080659#map=19/52.50526/13.34164  
-        -   title: Commerzbank
-            latitude: 52.5041802 
-            longitude: 13.3349984 
-            link: http://www.openstreetmap.org/node/313233252
+    
 ---
 
 This page provides an overview of ATM in the area of the conference hotel.
 
+    ATM Berliner Sparkasse (250 m from hotel)
+    Corneliusstraße 7
+    10787 Berlin
 
-Berliner Volksbank
-------------------
-Budapester Straße 35
-10787 Berlin 
-http://www.openstreetmap.org/node/700080659#map=19/52.50526/13.34164 
 
-Commerzbank
------------
-http://www.openstreetmap.org/node/313233252 
+    ATM Berliner Volksbank (350 m from hotel)
+    Budapester Straße 35
+    10787 Berlin 
+    http://www.openstreetmap.org/node/700080659#map=19/52.50526/13.34164 
+    
+    
+    Berlin Hyp Berlin-Hannoversche Hypothekenbank AG Bank (200 m from hotel)
+    Budapester Straße 1
+    10787 Berlin
