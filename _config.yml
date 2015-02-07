@@ -13,10 +13,7 @@ markdown: kramdown
 
 mapping:
     provider: openstreetmap
-    locations:
-                - title: foo
-                  latitude: 10
-                  longitude: 10
-                - title: bar
-                  latitude: -10
-                  longitude: -10
+    zoom: 8
+    dimensions:
+        width: 600
+        height: 400

@@ -2,10 +2,25 @@
 layout: page
 title: Restaurants
 permalink: /restaurants/
+tags:
+  - food
+  - information
+mapping:
+    provider: openstreetmap
+    zoom: 8
+    dimensions:
+        width: 600
+        height: 400
+    locations:
+        - title: foo
+          latitude: 10
+          longitude: 10
+        - title: bar
+          link: /some/awesome/path
+          latitude: -10
+          longitude: -10
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+This page is going to provide some information about restaurants around the hotel and some reachable via cab / sub.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
