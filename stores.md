@@ -10,6 +10,10 @@ mapping:
     latitude: 52 
     longitude: 13 
     locations: 
+        -   title: InterContinental Berlin 
+            latitude: 52.50733495 
+            longitude: 13.3451447636067  
+            link: http://www.openstreetmap.org/node/700080659#map=19/52.50526/13.34164 
         -   title: KaDeWe 
             latitude: 52.5023132
             longitude: 13.3410918 
