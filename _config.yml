@@ -12,7 +12,8 @@ url: "http://cert-verbund.github.io/" # the base hostname & protocol for your si
 markdown: kramdown
 
 mapping:
-    provider: google_static
+    provider: google_js
+    api_key: AIzaSyAD1BJLsixmJaLt0cDcyOiW1R4iG_Qtgo8
     zoom: 15
     dimensions:
         width: 600
