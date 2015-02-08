@@ -7,6 +7,8 @@ tags:
   - information
   - berlin
 mapping: 
+    layers: 
+        - http://alexanderjaeger.de/temp/stores.kml
     latitude: 52 
     longitude: 13 
     locations: 
