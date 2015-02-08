@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>InterContinental Berlin</name>
+    <description>Attached to the ground. Intelligently places itself 
+       at the height of the underlying terrain.</description>
+    <Point>
+      <coordinates>13.3451447636067,52.50733495,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>KaDeWe</name>
+    <description>Attached to the ground. Intelligently places itself 
+       at the height of the underlying terrain.</description>
+    <Point>
+      <coordinates>13.3410918,52.5023132,0</coordinates>
+    </Point>
+  </Placemark>
+</kml>
