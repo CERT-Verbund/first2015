@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FIRST 2015 CERT-Verbund</title>
+    <description>Information for FIRST 2015 attendees about restaurants, pubs, activities provided by the local teams.
+</description>
+    <link>http://first2015.cert-verbund.de/</link>
+    <atom:link href="http://first2015.cert-verbund.de/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 25 May 2015 21:15:56 +0200</pubDate>
+    <lastBuildDate>Mon, 25 May 2015 21:15:56 +0200</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+  </channel>
+</rss>
