@@ -12,7 +12,8 @@ url: "http://first2015.cert-verbund.de" # the base hostname & protocol for your 
 markdown: kramdown
 
 mapping:
-    provider: openstreetmap
+    provider: google_js
+    api_key: AIzaSyAD1BJLsixmJaLt0cDcyOiW1R4iG_Qtgo8
     zoom: 15
     dimensions:
         width: 600
