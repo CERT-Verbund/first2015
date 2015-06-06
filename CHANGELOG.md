@@ -1,9 +1,11 @@
 
 2015-06-06
 ----------
-- added more restaurents
+- added more restaurants
 - added imprint
 - modified readme
+- added posts section
+- added general information page
 
 
 2015-02-07
