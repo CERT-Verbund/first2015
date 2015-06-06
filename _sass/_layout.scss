@@ -209,12 +209,18 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
-
-    h2 {
-        font-size: 32px;
-
+    h1 {
+        font-size: 34px;
+        text-decoration: underline;
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: 34px;
+        }
+    }
+    h2 {
+        font-size: 26px;
+        font-style: oblique;
+        @include media-query($on-laptop) {
+            font-size: 26px;
         }
     }
 
