@@ -15,3 +15,5 @@ Test your stuff with "jekyll serve" locally
 
 Push your stuff to the repo (or make a pull request)
 
+to publish use:
+rake site:publish
