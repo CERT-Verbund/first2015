@@ -23,38 +23,57 @@ mapping:
 
 This page provides an overview of public transportation in the area of the conference hotel.
 
+More information [here](http://www.ihg.com/intercontinental/hotels/gb/en/berlin/berha/hoteldetail/about-the-hotel "more information") 
+
+# Leave the hotel
+
+##Subway
+
 If you want to use the subway, you will mainly go to S+U Zoologischer Garten Bhf around 1.1 km from hotel.
 
-    S+U Zoologischer Garten Bhf (Berlin)
-    Hardenbergplatz 13 
-    10623 Berlin
+S+U Zoologischer Garten Bhf (Berlin)
+Hardenbergplatz 13, 10623 Berlin
 
+[Google maps](http://maps.google.com/?q=Hardenbergplatz 13, 10623 Berlin)
+
+## Cab
+
+To get a cab you can ask for assistance at the reception or call +49 30 202020
+Most cabs will only accept cash.
+
+### Prices
+
+Base price: 3,9 €
+every kilometer 2 €
+
+You can ask for "Kurzstrecke" which is a special price for very short rides, that will charge you 5 €.
+
+More info for taxi rates: [berlin.de](http://www.berlin.de/en/public-transportation/1756978-2913840-taxi-phone-numbers-fares-rules.en.html)
 
 # How to reach the hotel?
 
 ## via plane
 
 ### from Tegel Airport (TXL)
-    Distance ~9 km to Hotel  
-    Taxi Charge: ~ €20.00  (EUR)  
-    Time by taxi: ~ 30 minutes  
+Distance ~9 km to Hotel  
+Taxi Charge: ~ €20.00  (EUR)  
+Time by taxi: ~ 30 minutes  
 
 ### from Schoenefeld (SXF)
-    Distance ~ 21 km to Hotel  
-    Taxi Charge: ~ €45.00  (EUR)  
-    Time by taxi: ~ 40 minutes  
 
-# Train
+Distance ~ 21 km to Hotel  
+Taxi Charge: ~ €45.00  (EUR)  
+Time by taxi: ~ 40 minutes  
 
-    Station name: Hauptbahnhof Berlin (Main Station)  
-    Distance ~ 3.2 km  
-    Taxi Fee From Train Station: ~ €5.00  (EUR)  
+## Train
 
-# Subway
+Station name: Hauptbahnhof Berlin (Main Station)  
+Distance ~ 3.2 km  
+Taxi Fee From Train Station: ~ €5.00  (EUR)  
 
-    Subway station name: Zoologischer Garten  
-    Distance ~ 1.0 km to Hotel  
-    Taxi Fee From Subway Station: ~ €5.00  (EUR)  
+## Subway
 
+Subway station name: Zoologischer Garten  
+Distance ~ 1.0 km to Hotel  
+Taxi Fee From Subway Station: ~ €5.00  (EUR)  
 
-More information [here](http://www.ihg.com/intercontinental/hotels/gb/en/berlin/berha/hoteldetail/about-the-hotel "more information") 

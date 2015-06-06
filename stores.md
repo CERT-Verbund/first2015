@@ -7,8 +7,6 @@ tags:
   - information
   - berlin
 mapping: 
-    layers: 
-        - http://alexanderjaeger.de/temp/stores.kml
     latitude: 52 
     longitude: 13 
     locations: 
@@ -38,46 +36,64 @@ mapping:
 
 # Electronic shops
 
-    SATURN
-    Tauentzienstr. 9
-    10789 Berlin
+##SATURN
+Tauentzienstr. 9, 10789 Berlin
 
-    Apple Store
-    Kurfürstendamm 26
-    10719 Berlin
+[Google maps](http://maps.google.com/?q=Tauentzienstr. 9, 10789 Berlin)
 
-    Cyberport Store Berlin-Charlottenburg  
-    Budapester Straße 42-50  
-    10787 Berlin  
+##Apple Store
+    
+Kurfürstendamm 26, 10719 Berlin
 
-# Stores
+[Google maps](http://maps.google.com/?q=Kurfürstendamm 26, 10719 Berlin)
 
-    KaDeWe
-    Largest departement store in europe.  
-    Tauentzienstraße 21-24  
-    10789 Berlin  
-    https://en.wikipedia.org/wiki/Kaufhaus_des_Westens
+
+##Cyberport Store Berlin-Charlottenburg  
+    
+Budapester Straße 42-50, 10787 Berlin  
+
+[Google maps](http://maps.google.com/?q=Budapester Straße 42-50, 10787 Berlin)
+
+#Stores
+
+##KaDeWe
+
+Largest departement store in europe.  
+
+Tauentzienstraße 21-24, 10789 Berlin
+
+[Wikipedia](https://en.wikipedia.org/wiki/Kaufhaus_des_Westens)
+
+[Google maps](http://maps.google.com/?q=Tauentzienstraße 21-24, 10789 Berlin)
 
 #Supermarket
 
-    Netto Marken-Discount
-    Kurfürstenstraße 75
-    10787 Berlin
+##Netto Marken-Discount
 
-    Karstadt Kurfürstendamm
-    Kurfürstendamm 231
-    10719 Berlin
+Kurfürstenstraße 75, 10787 Berlin
 
-    Lidl (1 km from hotel)
-    Kleiststraße 3
-    10787 Berlin-Tempelhof-Schöneberg
+[Google maps](http://maps.google.com/?q=Kurfürstenstraße 75, 10787 Berlin)
+
+##Karstadt Kurfürstendamm
+
+Kurfürstendamm 231,  10719 Berlin
+
+[Google maps](http://maps.google.com/?q=Kurfürstendamm 231,  10719 Berlin)
+
+##Lidl (1 km from hotel)
+
+Kleiststraße 3, 10787 Berlin-Tempelhof-Schöneberg
+
+[Google maps](http://maps.google.com/?q=Kleiststraße 3, 10787 Berlin-Tempelhof-Schöneberg)
 
 #Drug stores / pharmacy
 
-    Apotheke am Wittenbergplatz (0.6 km from hotel)
-    Bayreuther Straße 44
-    10787 Berlin
+##Apotheke am Wittenbergplatz (0.6 km from hotel)
+
+Bayreuther Straße 44, 10787 Berlin
+  
+[Google maps](http://maps.google.com/?q=Bayreuther Straße 44, 10787 Berlin)  
     
-    Ansbacher Apotheke (0.6 km from hotel)
-    Ansbacher Straße 13
-    10787 Berlin
+##Ansbacher Apotheke (0.6 km from hotel)
+Ansbacher Straße 13,10787 Berlin
+[Google maps](http://maps.google.com/?q=Ansbacher Straße 13,10787 Berlin)

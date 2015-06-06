@@ -23,12 +23,23 @@ mapping:
        
 ---
 
+# General 
+
+More information about prepaid SIM cards in germany are available at [prepaid-data-sim-card.wikia.com](http://prepaid-data-sim-card.wikia.com/wiki/Germany)
+
+The following shops are nearby the hotel to grab a prepaid card for the mobile phone / UMTS stick or other gear.
+
 # Telecommunication shops
 
-    Vodafone Shop D2 City (0.8 km from hotel)
-    Tauentzienstraße 18A
-    10789 Berlin
+##Vodafone Shop D2 City (0.8 km from hotel)
+
+Tauentzienstraße 18A, 10789 Berlin
+
+[Google maps](http://maps.google.com/?q=Tauentzienstraße 18A, 10789 Berlin)
+  
     
-    O2 Shop (0.8 km from hotel)
-    Tauentzienstraße 7
-    10789 Berlin
+##O2 Shop (0.8 km from hotel)
+
+Tauentzienstraße 7,10789 Berlin
+    
+[Google maps](http://maps.google.com/?q=Tauentzienstraße 7,10789 Berlin)

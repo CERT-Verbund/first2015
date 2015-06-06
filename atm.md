@@ -31,17 +31,23 @@ mapping:
 
 This page provides an overview of ATM in the area of the conference hotel.
 
-    ATM Berliner Sparkasse (250 m from hotel)
-    Corneliusstraße 7
-    10787 Berlin
+Usage of ATM might be charged depending on the contract your local bank has.
 
+#ATM Berliner Sparkasse (250 m from hotel)
 
-    ATM Berliner Volksbank (350 m from hotel)
-    Budapester Straße 35
-    10787 Berlin 
-    http://www.openstreetmap.org/node/700080659#map=19/52.50526/13.34164 
-    
-    
-    Berlin Hyp Berlin-Hannoversche Hypothekenbank AG Bank (200 m from hotel)
-    Budapester Straße 1
-    10787 Berlin
+Corneliusstraße 7, 10787 Berlin
+
+[Google maps](http://maps.google.com/?q=Corneliusstraße 7, 10787 Berlin)
+
+#ATM Berliner Volksbank (350 m from hotel)
+Budapester Straße 35, 10787 Berlin 
+
+[Google maps](http://maps.google.com/?q=Budapester Straße 35, 10787 Berlin)
+
+[Info on OSM](http://www.openstreetmap.org/node/700080659#map=19/52.50526/13.34164) 
+
+#Berlin Hyp Berlin-Hannoversche Hypothekenbank AG Bank (200 m from hotel)
+
+Budapester Straße 1, 10787 Berlin
+
+[Google maps](http://maps.google.com/?q=Budapester Straße 1, 10787 Berlin)
