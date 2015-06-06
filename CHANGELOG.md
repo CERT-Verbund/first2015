@@ -1,11 +1,14 @@
 
 2015-06-06
 ----------
-- added more restaurants
+- added more restaurants (based on Antonios List)
 - added imprint
 - modified readme
-- added posts section
+- added posts section with the first article
 - added general information page
+- added google maps links to almost all adresses
+- modified the "activities page" to cover BYOB
+- change to layout (CSS)
 
 
 2015-02-07
