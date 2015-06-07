@@ -4,6 +4,7 @@
 - added conrad electronics
 - U Wittenbergplatz (Berlin)
 - added some conference information to the info page
+- change of the mail alias to reach people
 
 2015-06-06
 ----------

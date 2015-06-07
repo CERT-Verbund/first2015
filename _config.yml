@@ -1,6 +1,6 @@
 # Site settings
 title: FIRST 2015 CERT-Verbund
-email: first2015@cert-verbund.de
+email: mailto:first-conf-2015@dfn-cert.de
 description: > # this means to ignore newlines until "baseurl:"
         Information for FIRST 2015 attendees about restaurants, pubs, activities provided by the local teams.
 baseurl: "" # the subpath of your site, e.g. /blog/
