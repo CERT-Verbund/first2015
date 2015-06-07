@@ -17,7 +17,11 @@ mapping:
         -   title: KaDeWe 
             latitude: 52.5023132
             longitude: 13.3410918 
-            link: http://nominatim.openstreetmap.org/details.php?place_id=14155235 
+            link: http://nominatim.openstreetmap.org/details.php?place_id=14155235
+        -   title: Conrad Elektronik Berlin-Schöneberg
+            latitude: 52.5006268
+            longitude: 13.3470775
+            link:  https://nominatim.openstreetmap.org/details.php?place_id=19128589            
         -   title: SATURN 
             latitude: 52.5036655
             longitude: 13.3385732 
@@ -47,6 +51,11 @@ Kurfürstendamm 26, 10719 Berlin
 
 [Google maps](http://maps.google.com/?q=Kurfürstendamm 26, 10719 Berlin)
 
+##Conrad Electronic
+
+Kleiststraße 30, 10787 Berlin
+
+[Google maps](http://maps.google.com/?q=Kleiststraße 30, 10787 Berlin)
 
 ##Cyberport Store Berlin-Charlottenburg  
     

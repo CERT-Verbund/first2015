@@ -1,7 +1,7 @@
 2015-06-07
 ----------
 - Photowalk added
-
+- added conrad electronics
 
 2015-06-06
 ----------
