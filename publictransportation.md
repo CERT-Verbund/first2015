@@ -18,6 +18,13 @@ mapping:
             latitude: 52.5073155 
             longitude: 13.3327541
             link: http://www.openstreetmap.org/node/27556933
+        -   Title: U Wittenbergplatz (Berlin)
+            latitude: 52.5020603 
+            longitude: 13.3431777
+            link: https://nominatim.openstreetmap.org/details.php?place_id=50128268            
+            
+            
+            
 
 ---
 
@@ -31,10 +38,18 @@ More information [here](http://www.ihg.com/intercontinental/hotels/gb/en/berlin/
 
 If you want to use the subway, you will mainly go to S+U Zoologischer Garten Bhf around 1.1 km from hotel.
 
-S+U Zoologischer Garten Bhf (Berlin)
+### S+U Zoologischer Garten Bhf (Berlin)
+
 Hardenbergplatz 13, 10623 Berlin
 
 [Google maps](http://maps.google.com/?q=Hardenbergplatz 13, 10623 Berlin)
+
+
+### U Wittenbergplatz (Berlin)
+
+Wittenbergplatz, 10789 Berlin
+
+[Google maps](http://maps.google.com/?q=Wittenbergplatz, 10789 Berlin)
 
 ## Cab
 

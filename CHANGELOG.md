@@ -2,6 +2,7 @@
 ----------
 - Photowalk added
 - added conrad electronics
+- U Wittenbergplatz (Berlin)
 
 2015-06-06
 ----------
