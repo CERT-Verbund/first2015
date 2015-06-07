@@ -41,3 +41,10 @@ Delivery Services: 5%-10% (at least €1)
 # General information about Germany
 
 A good summary about need to know stuff is collected at [wikitravel.org](http://wikitravel.org/en/Germany) and [hoteltravel.com](http://www.hoteltravel.com/germany/guides/travel_tips.htm)
+
+# Important links for the conference
+
+[Official conference page](https://www.first.org/conference/2015)
+[Agenda / Programm](https://www.first.org/conference/2015/program)
+
+Latest updates can be received via [Twitter](https://twitter.com/firstdotorg)

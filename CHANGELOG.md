@@ -3,6 +3,7 @@
 - Photowalk added
 - added conrad electronics
 - U Wittenbergplatz (Berlin)
+- added some conference information to the info page
 
 2015-06-06
 ----------
