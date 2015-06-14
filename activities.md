@@ -34,7 +34,29 @@ BBQ starts at approx. 2030
 
 We will have referees.
 
-We ask participants of BBQ for a compensation of 15 €.
+The football club is about 4.1 km away from the Hotel Interconti. It
+is a 10 minutes drive by taxi or an approx. 30 min. ride with public
+transportation plus a short walk. It is nicely located at a river
+bend of the Spree.
+
+There are changing rooms with showers for the players and we can use
+a half sized football field until 22:00, and even have floodlight if
+necessary. Artificial turf - plastic grass, no cleats please!!!
+And we have the clubhouse where we can sit inside and outside for the
+BYB Session.
+
+Furthermore, we have organised a light barbecue with sausages, pork
+steaks, minced meat beef steaks (burgers), various salads, bread and
+dessert. For the food and some sparkling water, we kindly ask
+attendees to pay a small amount of 15 Euro.
+
+Additionally, some Bavarian colleagues sponsor 150 l of their
+self brewed crafted beer for free that they bring to Berlin. For the
+connoisseurs,
+
+it is Kellerbier or Zwickelbier. Our thanks go to Robert Schenk (BMW
+CERT) and Thomas Schreck (Siemens CERT) for brewing the bIeR and
+Christoph Fischer (BFK) for organising the transport to Berlin.
 
 
 DACH meetup
