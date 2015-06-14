@@ -51,9 +51,13 @@ mapping:
             longitude: 13.3234849
             link: https://nominatim.openstreetmap.org/details.php?place_id=955412
         -   title: Faustus
-            latitude:  52,5010655
+            latitude: 52,5010655
             longitude: 13,3423823
             link: http://www.faustus-berlin.de/Willkommen.html
+        -   title: Bauhaus-Cafe
+            latitude: 52,5063451
+            longitude: 13,3539123
+            link: http://www.bauhaus.de/en/service/591_bauhaus_caf/
 
                            
 ---
@@ -199,7 +203,18 @@ Faustus
 Wittenbergplatz 2, 10789 Berlin
 Opening hours: 11 a.m. - 0 a.m.
 
-[Infos on OSM](http://www.openstreetmap.org/node/3002627046) - [Google maps](http://maps.google.com/?q=Hausvogteiplatz 3-4, 10117 Berlin)
+[Infos on OSM](http://www.openstreetmap.org/node/3002627046#map=19/52.50106/13.34238) - [Google maps](http://maps.google.com/?q=Wittenbergplatz 3, 10789 Berlin)
 
 Nice restaurant not too far off with a mixed German menu (including Currywurst!). Reachable via a short walk.
+
+
+Bauhaus-Cafe 
+----------------
+
+Klingelhoeferstrasse 14, 10785 Berlin
+Opening hours: 10 a.m. - 17 a.m. (closed on Tuesday)
+
+[Infos on OSM](http://www.openstreetmap.org/way/26475315#map=19/52.50620/13.35382) - [Google maps](http://maps.google.com/?q=Klingelhoeferstrasse 14, 10785 Berlin)
+
+The Bauhaus-Café with its terrace is part of the Bauhaus-Archiv Berlin and just a stonethrow away on the other side of the channel. Special: Bauhaus-Brunch on Saturdays (brunch, admission and guided tour for € 19). Reachable via a short walk over the bridge at the end of Budapesterstr..
 
