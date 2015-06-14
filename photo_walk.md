@@ -19,6 +19,8 @@ The spots will also be nice illuminated after sundown.
 
 Some other hot spots are marked on the map as well just FYI.
 
+[Handout](https://docs.google.com/document/d/1q-Ulteoa88TtGATPGMCl1JFQgya14-U1JG_8Efo-z_s/edit?usp=sharing) is available at google docs
+
 ##To start
 
 a) take the train to Berlin Potsdamer Platz (around 15-20 Minutes from the hotel)

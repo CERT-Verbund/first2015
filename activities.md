@@ -24,6 +24,21 @@ Bring your own Bottle event combined with Soccer / Football
 
 SpVgg Tiergarten 58 e.V. ,10553 Berlin
 
-Dates will be announced soon
+Dates: 
+
+Event starts at 1900
+
+Soccer starts at 1930
+
+BBQ starts at approx. 2030
+
+We will have referees.
+
+We ask participants of BBQ for a compensation of 15 €.
 
 
+DACH meetup
+-----------
+
+We will have a meeting of german speaking People on Thursday, 
+event location will be announced on the whiteboard in the lobby.
