@@ -50,7 +50,7 @@ mapping:
             latitude: 52.5065269
             longitude: 13.3234849
             link: https://nominatim.openstreetmap.org/details.php?place_id=955412
- 	-   title: Faustus
+        -   title: Faustus
             latitude:  52,5010655
             longitude: 13,3423823
             link: http://www.faustus-berlin.de/Willkommen.html

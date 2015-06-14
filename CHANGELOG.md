@@ -1,3 +1,7 @@
+2015-06-14
+----------
+- some contents added
+
 2015-06-07
 ----------
 - Photowalk added
