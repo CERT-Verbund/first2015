@@ -49,7 +49,13 @@ mapping:
         -   title: Dicke Wirtin
             latitude: 52.5065269
             longitude: 13.3234849
-            link: https://nominatim.openstreetmap.org/details.php?place_id=955412                           
+            link: https://nominatim.openstreetmap.org/details.php?place_id=955412
+ 	-   title: Faustus
+            latitude:  52,5010655
+            longitude: 13,3423823
+            link: http://www.faustus-berlin.de/Willkommen.html
+
+                           
 ---
 
 #General
@@ -187,4 +193,13 @@ Reachable via a short walk from conference hotel.
 
 
 
+Faustus 
+----------------
+
+Wittenbergplatz 2, 10789 Berlin
+Opening hours: 11 a.m. - 0 a.m.
+
+[Infos on OSM](http://www.openstreetmap.org/node/3002627046) - [Google maps](http://maps.google.com/?q=Hausvogteiplatz 3-4, 10117 Berlin)
+
+Nice restaurant not too far off with a mixed German menu (including Currywurst!). Reachable via a short walk.
 
