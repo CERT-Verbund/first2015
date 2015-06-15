@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FIRST 2015 CERT-Verbund</title>
+    <description>Information for FIRST 2015 attendees about restaurants, pubs, activities provided by the local teams.
+</description>
+    <link>http://first2015.cert-verbund.de/</link>
+    <atom:link href="http://first2015.cert-verbund.de/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 15 Jun 2015 11:12:49 +0200</pubDate>
+    <lastBuildDate>Mon, 15 Jun 2015 11:12:49 +0200</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>update to content</title>
+        <description>&lt;p&gt;We added a lot of content, changed the layout.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bugfixes&lt;/li&gt;
+  &lt;li&gt;Keysigning&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 15 Jun 2015 00:00:00 +0200</pubDate>
+        <link>http://first2015.cert-verbund.de/2015/06/15/Keysigning-photo-walk.html</link>
+        <guid isPermaLink="true">http://first2015.cert-verbund.de/2015/06/15/Keysigning-photo-walk.html</guid>
+        
+        <category>first</category>
+        
+        <category>information</category>
+        
+        <category>berlin</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>update to content</title>
+        <description>&lt;p&gt;We added a lot of content, changed the layout.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;added some locations&lt;/li&gt;
+  &lt;li&gt;added Photo walk handout&lt;/li&gt;
+  &lt;li&gt;added DACH meetup&lt;/li&gt;
+  &lt;li&gt;added Soccer /BYOB dates&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 14 Jun 2015 00:00:00 +0200</pubDate>
+        <link>http://first2015.cert-verbund.de/2015/06/14/major-update.html</link>
+        <guid isPermaLink="true">http://first2015.cert-verbund.de/2015/06/14/major-update.html</guid>
+        
+        <category>first</category>
+        
+        <category>information</category>
+        
+        <category>berlin</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Major update to content</title>
+        <description>&lt;p&gt;We added a lot of content, changed the layout.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;added restaurants, bars&lt;/li&gt;
+  &lt;li&gt;added google maps links to most of the content&lt;/li&gt;
+  &lt;li&gt;added pricing for CAB / taxi&lt;/li&gt;
+  &lt;li&gt;added the location of BYOB event&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 06 Jun 2015 00:00:00 +0200</pubDate>
+        <link>http://first2015.cert-verbund.de/2015/06/06/major-update.html</link>
+        <guid isPermaLink="true">http://first2015.cert-verbund.de/2015/06/06/major-update.html</guid>
+        
+        <category>first</category>
+        
+        <category>information</category>
+        
+        <category>berlin</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
