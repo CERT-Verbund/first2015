@@ -66,17 +66,6 @@ mapping:
 
 This page is going to provide some information about restaurants around the hotel and some reachable via cab / sub.
 
-## Non Smoking laws
-
-Non smoking rules are very strict in Germany see that [info page](http://www.howtogermany.com/pages/nosmoking.html) for more info
-
-## Alcohol
-
-To learn more about the alcohol rules in germany visit: [Wikipedia](https://en.wikipedia.org/wiki/Alcohol_laws_in_Germany)
-
-## Drug policy
-
-To learn more about the drug rules in germany visit: [Wikipedia](https://en.wikipedia.org/wiki/Drug_policy_of_Germany)
 
 Cafe Einstein - Stammhaus
 -------------------------
