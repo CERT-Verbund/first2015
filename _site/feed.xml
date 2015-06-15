@@ -6,9 +6,57 @@
 </description>
     <link>http://first2015.cert-verbund.de/</link>
     <atom:link href="http://first2015.cert-verbund.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 May 2015 21:15:56 +0200</pubDate>
-    <lastBuildDate>Mon, 25 May 2015 21:15:56 +0200</lastBuildDate>
+    <pubDate>Sun, 14 Jun 2015 18:41:26 +0200</pubDate>
+    <lastBuildDate>Sun, 14 Jun 2015 18:41:26 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>update to content</title>
+        <description>&lt;p&gt;We added a lot of content, changed the layout.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;added some locations&lt;/li&gt;
+  &lt;li&gt;added Photo walk handout&lt;/li&gt;
+  &lt;li&gt;added DACH meetup&lt;/li&gt;
+  &lt;li&gt;added Soccer /BYOB dates&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 14 Jun 2015 00:00:00 +0200</pubDate>
+        <link>http://first2015.cert-verbund.de/2015/06/14/major-update.html</link>
+        <guid isPermaLink="true">http://first2015.cert-verbund.de/2015/06/14/major-update.html</guid>
+        
+        <category>first</category>
+        
+        <category>information</category>
+        
+        <category>berlin</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Major update to content</title>
+        <description>&lt;p&gt;We added a lot of content, changed the layout.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;added restaurants, bars&lt;/li&gt;
+  &lt;li&gt;added google maps links to most of the content&lt;/li&gt;
+  &lt;li&gt;added pricing for CAB / taxi&lt;/li&gt;
+  &lt;li&gt;added the location of BYOB event&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 06 Jun 2015 00:00:00 +0200</pubDate>
+        <link>http://first2015.cert-verbund.de/2015/06/06/major-update.html</link>
+        <guid isPermaLink="true">http://first2015.cert-verbund.de/2015/06/06/major-update.html</guid>
+        
+        <category>first</category>
+        
+        <category>information</category>
+        
+        <category>berlin</category>
+        
+        
+      </item>
     
   </channel>
 </rss>

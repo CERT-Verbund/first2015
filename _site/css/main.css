@@ -293,11 +293,18 @@ pre {
 
 .post-content {
   margin-bottom: 30px; }
+  .post-content h1 {
+    font-size: 34px;
+    text-decoration: underline; }
+    @media screen and (max-width: 800px) {
+      .post-content h1 {
+        font-size: 34px; } }
   .post-content h2 {
-    font-size: 32px; }
+    font-size: 26px;
+    font-style: oblique; }
     @media screen and (max-width: 800px) {
       .post-content h2 {
-        font-size: 28px; } }
+        font-size: 26px; } }
   .post-content h3 {
     font-size: 26px; }
     @media screen and (max-width: 800px) {

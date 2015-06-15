@@ -46,7 +46,19 @@
           
         
           
+          <a class="page-link" href="/imprint/">Imprint</a>
+          
         
+          
+        
+          
+          <a class="page-link" href="/important_information/">Good to know</a>
+          
+        
+          
+        
+          
+          <a class="page-link" href="/photo_walk/">Photo walk</a>
           
         
           
@@ -82,8 +94,51 @@
   </header>
 
   <article class="post-content">
-    
-    
+    <div id="jekyll-mapping" style="height:400px;width:600px;"></div>
+    <h2 id="byob-event--soccer">BYOB Event / Soccer</h2>
+
+<p>Bring your own Bottle event combined with Soccer / Football</p>
+
+<p>SpVgg Tiergarten 58 e.V. ,10553 Berlin</p>
+
+<p>Dates:</p>
+
+<p>Event starts at 1900</p>
+
+<p>Soccer starts at 1930</p>
+
+<p>BBQ starts at approx. 2030</p>
+
+<p>We will have referees.</p>
+
+<p>The football club is about 4.1 km away from the Hotel Interconti. It
+is a 10 minutes drive by taxi or an approx. 30 min. ride with public
+transportation plus a short walk. It is nicely located at a river
+bend of the Spree.</p>
+
+<p>There are changing rooms with showers for the players and we can use
+a half sized football field until 22:00, and even have floodlight if
+necessary. Artificial turf - plastic grass, no cleats please!!!
+And we have the clubhouse where we can sit inside and outside for the
+BYB Session.</p>
+
+<p>Furthermore, we have organised a light barbecue with sausages, pork
+steaks, minced meat beef steaks (burgers), various salads, bread and
+dessert. For the food and some sparkling water, we kindly ask
+attendees to pay a small amount of 15 Euro.</p>
+
+<p>Additionally, some Bavarian colleagues sponsor 150 l of their
+self brewed crafted beer for free that they bring to Berlin. For the
+connoisseurs,</p>
+
+<p>it is Kellerbier or Zwickelbier. Our thanks go to Robert Schenk (BMW
+CERT) and Thomas Schreck (Siemens CERT) for brewing the bIeR and
+Christoph Fischer (BFK) for organising the transport to Berlin.</p>
+
+<h2 id="dach-meetup">DACH meetup</h2>
+
+<p>We will have a meeting of german speaking People on Thursday, 
+event location will be announced on the whiteboard in the lobby.</p>
 
   </article>
 
@@ -102,7 +157,7 @@
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
           <li>FIRST 2015 CERT-Verbund</li>
-          <li><a href="mailto:first2015@cert-verbund.de">first2015@cert-verbund.de</a></li>
+          <li><a href="mailto:mailto:first-conf-2015@dfn-cert.de">mailto:first-conf-2015@dfn-cert.de</a></li>
         </ul>
       </div>
 
@@ -126,8 +181,7 @@
 
     
     
-            <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
-<script type="text/javascript">
+            <script type="text/javascript">
 var jekyllMapping = (function () {
     'use strict';
     var settings;
@@ -135,73 +189,92 @@ var jekyllMapping = (function () {
         plotArray: function(locations) {
             function jekyllMapListen (m, s) {
                 if (s.link) {
-                    m.events.register('click', m, function() {
+                    google.maps.event.addListener(m, 'click', function() {
                         window.location.href = s.link;
                     });
                 }
             }
-            var s, l, m, bounds = new OpenLayers.Bounds();
+            var bounds = new google.maps.LatLngBounds(), markers = [], s, l, m;
             while (locations.length > 0) {
                 s = locations.pop();
-                l = new OpenLayers.LonLat(s.longitude, s.latitude).transform( new OpenLayers.Projection("EPSG:4326"), new OpenLayers.Projection("EPSG:900913"));
-                m = new OpenLayers.Marker(l)
-                this.markers.addMarker(m)
-                bounds.extend(l);
+                l = new google.maps.LatLng(s.latitude, s.longitude);
+                m = new google.maps.Marker({
+                    position: l,
+                    map: this.map,
+                    title: s.title
+                });
+                markers.push(m);
+                bounds.extend(l);                
                 jekyllMapListen(m, s);
             }
-            this.map.zoomToExtent(bounds);
+            this.map.fitBounds(bounds);
         },
         indexMap: function () {
             this.plotArray(settings.pages);
         },
         pageToMap: function () {
             if (typeof(settings.latitude) !== 'undefined' && typeof(settings.longitude) !== 'undefined') {
-                this.center = new OpenLayers.LonLat(settings.longitude, settings.latitude).transform( new OpenLayers.Projection("EPSG:4326"), new OpenLayers.Projection("EPSG:900913"));
-                this.map.setCenter(this.center, settings.zoom);
-                this.markers.addMarker(new OpenLayers.Marker(this.center));
+                this.options.center = new google.maps.LatLng(settings.latitude, settings.longitude);
+
+                var mainMarker = new google.maps.Marker({
+                    position: this.options.center,
+                    map: this.map,
+                    title: "Activities"
+                });
+                this.map.setCenter(this.options.center);
             }     
 
             if (settings.locations instanceof Array) {
                 this.plotArray(settings.locations);
             }
+
+            if (settings.kml) {
+                var mainLayer = new google.maps.KmlLayer(settings.kml);
+                mainLayer.setMap(this.map);
+            }
             
             if (settings.layers) {
+                var layers = [];
                 while (settings.layers.length > 0){
-                    var m = new OpenLayers.Layer.Vector("KML", {
-                            strategies: [new OpenLayers.Strategy.Fixed()],
-                            protocol: new OpenLayers.Protocol.HTTP({
-                                url: settings.layers.pop(),
-                                format: new OpenLayers.Format.KML({
-                                    extractStyles: true,
-                                    extractAttributes: true,
-                                    maxDepth: 2
-                                })
-                            })
-                        });
-                    this.map.addLayer(m)
+                    var m = new google.maps.KmlLayer(settings.layers.pop());
+                    layers.push(m);
+                    m.setMap(this.map);
                 }
             }
         },
-        mappingInitialize: function (set) {
-            settings = set;
+        mappingInitialize: function () {
+            this.options = {
+                zoom: 10,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                center: new google.maps.LatLng(0, 0)
+            };
 
-            this.markers = new OpenLayers.Layer.Markers("Markers"),
-            this.map = new OpenLayers.Map("jekyll-mapping");
-            this.map.addLayer(new OpenLayers.Layer.OSM());
-            this.map.addLayer(this.markers);
+            this.map = new google.maps.Map(document.getElementById("jekyll-mapping"), this.options);
 
             if (settings.pages) {
                 this.indexMap();
             } else {
                 this.pageToMap();
             }
-        }        
+        },
+        loadScript: function (set) {
+            settings = set;
+            var script = document.createElement("script");
+            script.type = "text/javascript";
+            script.src = "http://maps.googleapis.com/maps/api/js?key=" + settings.api_key + "&sensor=false&callback=jekyllMapping.mappingInitialize";
+            document.body.appendChild(script);
+        }
     };
     return obj;
 }());
-</script>
-
+</script> 
+        
     
+    
+            <script type="text/javascript">
+                window.onload = function () { jekyllMapping.loadScript({"provider":"google_js","api_key":"AIzaSyAD1BJLsixmJaLt0cDcyOiW1R4iG_Qtgo8","zoom":15,"dimensions":{"width":600,"height":400},"latitude":52,"longitude":13,"locations":[{"title":"InterContinental Berlin","latitude":52.50733495,"longitude":13.3451447636067,"link":"http://www.openstreetmap.org/node/700080659#map=19/52.50526/13.34164"},{"title":"BYOB Event / Soccer","latitude":52.523208,"longitude":13.31707}]}) };
+            </script>
+        
     
 
   </body>
